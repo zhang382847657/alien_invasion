@@ -9,7 +9,8 @@ class Settings():
 		self.bg_color = (230, 230, 230)  #屏幕背景色
 
 		#飞船的设置
-		self.ship_speed_factor = 3  #飞船的速度
+		self.ship_speed_factor = 10  #飞船的速度
+		self.ship_limit = 3  #飞船可用的数量
 
 		#子弹设置
 		self.bullet_speed_factor = 20  #子弹的速度
@@ -19,7 +20,7 @@ class Settings():
 		self.bullets_allowed = 30  #允许发射的子弹数量
 
 		#外星人设置
-		self.alien_speed_factor = 1  #外星人移动速度
-		self.fleet_drop_speed = 10 #外星人向下移动的速度
+		self.alien_speed_factor = 5  #外星人移动速度
+		self.fleet_drop_speed = 15 #外星人向下移动的速度
 		self.fleet_direction = 1 #外星人移动的方向 1代表向右  -1代表向左
 
